@@ -54,7 +54,9 @@ void bubble_sort(int arr[], int size) {
 ```
 
 ## Usage
-```
+```c
+#include <stdio.h>
+
 int main() {
     int array[] = {64, 34, 25, 12, 22, 11, 90};
     int size = sizeof(array) / sizeof(array[0]);
@@ -77,7 +79,17 @@ int main() {
 ```
 
 ## Credits
-
+ * [Sorting algorithm](https://en.wikipedia.org/wiki/Sorting_algorithm)
+ * [Big O notation](https://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation)
+ * [Sorting Algorithms Animations](https://www.toptal.com/developers/sorting-algorithms)
+ * [Sorting Algorithms](https://www.geeksforgeeks.org/sorting-algorithms/)
+ * [CS50 2021 - Lecture 3 - Algorithms](https://www.youtube.com/watch?v=yb0PY3LX2x8&t=2s)
+ * [15 Sorting Algorithms in 6 Minutes](https://www.youtube.com/watch?v=kPRA0W1kECg)
+ * [Algorithms: Bubble Sort](https://www.youtube.com/watch?v=6Gv8vg0kcHc)
+ * [Algorithms: Quicksort](https://www.youtube.com/watch?v=SLauY6PpjW4)
+ * [Algorithms: Merge Sort](https://www.youtube.com/watch?v=KF2j-9iSf4Q)
+ * [Algorithms: Binary Search](https://www.youtube.com/watch?v=P3YID7liBug)
+ * [Big O Notation](https://www.youtube.com/watch?v=v4cd1O4zkGw)
 
 ## Contact
  * [Sakhile Ndlazi](https://www.twitter.com/sakhilelindah)

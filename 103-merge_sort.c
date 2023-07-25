@@ -50,14 +50,15 @@ merge(int *array, size_t size, int *left, size_t left_size, int *right, size_t r
  */
 void merge_sort(int *array, size_t size)
 {
-	if (array == NULL || size < 2)
-		return;
 	size_t mid = size / 2;
 	size_t left_size = mid;
 	size_t right_size = size - mid;
 
 	int *left = array;
 	int *right = array + mid;
+
+	if (array == NULL || size < 2)
+		return;
 
 	merge_sort(left, left_size);
 	merge_sort(right, right_size);
